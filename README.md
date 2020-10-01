@@ -1,5 +1,5 @@
 # C++ programs-for-conversion-of-SAM-file-into-Fastq-files
-These programs converts SAM files containing paired end sequence reads into two Fastq files . It is helpful in case when the SAM file is truncated or it contains some errors , then samtools fails to convert such SAM files into respective Fastq files.
+These programs converts SAM files containing paired end sequence reads into two Fastq files . It is helpful when samtools fails to convert SAM files into respective Fastq files because the SAM file is truncated or it contains some errors. 
 
 1) FilterSam.cpp - This program filters out the good reads and writes them into output.sam file and the reads that have error or are incomplete are written into the garbage.sam file .
 
